@@ -1,14 +1,11 @@
-# Uganda Aid and Budget Visualisation
+# USAID Development Credit Authority loan
 
-This visualisation shows Uganda's domestic budget alongside the aid spending by donors in Uganda, for 2003-2006. You can click on an individual sector and see the amount spent in total - by the size of the bubble - and by the Government and Aid donors. Aid is split into two components:
+This visualisation shows USAID's Development Credit Authority loans from 2001-2012. You can click on each of the sectors and see the relative size of loans to each country.
 
-* Budget support - which is money given directly to the government to spend through its own systems, following consultation with donors, and
-* Project aid - which is aid spent directly by the donors.
-
-You can also see the individual projects that make up this spending data, by viewing the data on [OpenSpending.org](http://openspending.org/ugandabudget?_time=2003)
+You can also see the individual projects that make up this spending data, by viewing the data on http://www.OpenSpending.org [OpenSpending.org](http://openspending.org/usaid_dca)
 
 # DISCLAIMER:
 
-The data used for this visualisation was collected as part of the Overseas Development Institute's Donor Division of Labour Exercise conducted in 2006-2007*. All mistakes, errors and omissions in this visualization are the responsibility of Publish What You Fund alone. The data and research reported here do not reflect the official view of the Ministry of Finance, Planning and Economic Development. This data is not used by the Government of Uganda to allocate resources or for any other official purpose and no Ministry staff were involved in the development of this visualization.
+The data used for this visualisation was provided by USAID DCA as part of a crowd data collection process. USAID did not fund or endorse this visualisation. It may be inaccurate and should not be relied on.
 
-*For more details see the ODI report Uganda Development Partner Division of Labour Exercise: 
+For more details see the USAID website: [Crowdsourcing Transparency: Development Credit Authority Loan Data](http://www.usaid.gov/results-and-data/progress-data/data/dca)
