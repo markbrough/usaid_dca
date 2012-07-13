@@ -1,0 +1,129 @@
+.aid {
+	padding:4px;
+	background-color:#A1218D !important;
+}
+.government-of-uganda {
+	padding:4px;
+	background-color:#4183B0 !important;
+
+}
+.budget-support {
+	padding:4px;
+	background-color:#005187 !important;
+
+}
+.aid a, .budget-support a, .government-of-uganda a {
+	color:#ffffff  !important ;
+}
+* {
+	vertical-align:top;
+	overflow:auto !important;
+	font-size:15px;
+}
+.browser img {
+	float:left;
+	position:absolute;
+}
+.num-entries {
+	padding-left:2px;
+}
+
+
+// Openspending.css
+
+
+@CHARSET "UTF-8";
+div.form h2, div.filters-current h2 {
+	font-size:1.5em;
+	padding:0px;
+	}
+	
+div.list {
+	font-size:1.2em;
+	padding:0px;
+	}
+div.form {
+	font-size:1.2em;
+	padding:0px;
+	}
+.browser .pager ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.browser .pager ul li {
+  display: inline;
+  padding-left: 5px;
+  float:left;
+}
+
+.browser .navigator {
+  margin-bottom: 20px;
+}
+
+.browser .navigator .filters-current {
+  float: right;
+  width: 300px;
+}
+
+.browser .navigator .form {
+  margin-right: 320px;
+}
+
+
+/* -----------------------------------------------------------------------
+
+
+ Blueprint CSS Framework 1.0
+ http://blueprintcss.org
+
+   * Copyright (c) 2007-Present. See LICENSE for more info.
+   * See README for instructions on how to use Blueprint.
+   * For credits and origins, see AUTHORS.
+   * This is a compressed file. See the sources in the 'src' directory.
+
+----------------------------------------------------------------------- */
+
+/* typography.css */
+h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#111;}
+h2 {font-size:2em;margin-bottom:0.75em;}
+h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;}
+a:focus, a:hover {color:#09f;}
+a {color:#06c;text-decoration:underline;}
+table {margin-bottom:1.4em;width:100%;}
+th {font-weight:bold;}
+thead th {background:#c3d9ff;}
+th, td, caption {padding:4px 10px 4px 5px;}
+tbody tr:nth-child(even) td, tbody tr.even td {background:#e5ecf9;}
+tfoot {font-style:italic;}
+
+/* forms.css */
+input[type=text]:focus, input[type=password]:focus, input.text:focus, input.title:focus, textarea:focus {border-color:#666;}
+select {background-color:#fff;border-width:1px;border-style:solid;}
+.result-list th.num {
+  padding-right: 25px;
+}
+
+.result-list thead th {
+  background-image: none;
+  border: solid 1px #eee;
+}
+
+.result-list thead th.sortable {
+  background-image: url(http://assets.okfn.org/ext/jquery.tablesorter/bg.gif);
+  background-repeat: no-repeat;
+  background-position: center right;
+  cursor: pointer;
+}
+
+.result-list thead th.sort-asc {
+  background-image: url(http://assets.okfn.org/ext/jquery.tablesorter/asc.gif);
+}
+.result-list thead th.sort-desc {
+  background-image: url(http://assets.okfn.org/ext/jquery.tablesorter/desc.gif);
+}
+span.progproj {
+  font-size:8px;
+  text-transform:uppercase;
+}

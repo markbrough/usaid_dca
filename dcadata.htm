@@ -1,0 +1,68 @@
+<html>
+<title>USAID DCA data visualiser</title>
+<head>
+<link rel="stylesheet" type="text/css" media="all" href="ugandabubbletree.css" /> 
+<link rel="stylesheet" type="text/css" media="all" href="ugandadatacss.css" />
+
+<script src="jquery.min.js" type="text/javascript"></script>
+
+  <!-- OpenSpending Styles: replace these if you wish. --> 
+  <script src="http://openspending.org/js/libs/modernizr-1.6.min.js"></script>  
+  <link rel="stylesheet" href="http://openspending.org/css/blueprint/print.css" type="text/css" media="print" /> 
+  <!--[if lt IE 8]><link rel="stylesheet" href="http://rufuspollock.org/code/openspendingjs/app/spend-browser/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]--> 
+
+    <!-- local mods/additions --> 
+  <!-- /OpenSpending Styles --> 
+  
+  <!-- Vendor Libraries --> 
+  <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script> 
+ 
+    <!-- /ajax-solr Libraries --> 
+  <script type="text/javascript" src="http://demos.openspending.org/openspendingjs/lib/vendor/ajax-solr/core/Core.js"></script> 
+  <script type="text/javascript" src="http://demos.openspending.org/openspendingjs/lib/vendor/ajax-solr/core/AbstractManager.js"></script> 
+  <script type="text/javascript" src="http://demos.openspending.org/openspendingjs/lib/vendor/ajax-solr/managers/Manager.jquery.js"></script> 
+  <script type="text/javascript" src="http://demos.openspending.org/openspendingjs/lib/vendor/ajax-solr/core/Parameter.js"></script> 
+  <script type="text/javascript" src="http://demos.openspending.org/openspendingjs/lib/vendor/ajax-solr/core/ParameterStore.js"></script> 
+  <script type="text/javascript" src="http://demos.openspending.org/openspendingjs/lib/vendor/ajax-solr/core/AbstractWidget.js"></script> 
+  <script type="text/javascript" src="http://demos.openspending.org/openspendingjs/lib/vendor/ajax-solr/core/AbstractFacetWidget.js"></script> 
+  <script type="text/javascript" src="http://demos.openspending.org/openspendingjs/lib/vendor/ajax-solr/widgets/jquery/PagerWidget.js"></script> 
+  <!-- /Vendor Libraries --> 
+ 
+  <script type="text/javascript" src="http://demos.openspending.org/openspendingjs/lib/utils/utils.js"></script> 
+  <script type="text/javascript" src="datastore.js"></script> 
+  <script type="text/javascript" src="data_search.js"></script>
+
+<style>
+html, body {
+	overflow: visible; 
+}
+.navigator {
+	display:none;
+}
+
+</style>
+  <script type="text/javascript"> 
+jQuery(document).ready(function($) {
+  var searchtext;
+  var config = {
+    endpoint: 'http://openspending.org/',
+    target: '.browser',
+    dataset: 'usaid_dca',
+    sector: parent.sector,
+    rootvar: parent.rootvar,
+    isacountry: parent.isacountry,
+    country: parent.country,
+    year: parent.year
+  };
+  if (parent.year != 'undefined') {
+      var browser = new OpenSpending.App.SpendBrowser(config);
+      browser.initialize();
+  }
+});
+  </script>
+</head>   
+          <!-- The Element we attach to --> 
+          <div class="browser"></div> 
+<div class="clearer">&nbsp;</div>
+</body>
+</html>

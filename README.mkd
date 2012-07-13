@@ -1,0 +1,14 @@
+# Uganda Aid and Budget Visualisation
+
+This visualisation shows Uganda's domestic budget alongside the aid spending by donors in Uganda, for 2003-2006. You can click on an individual sector and see the amount spent in total - by the size of the bubble - and by the Government and Aid donors. Aid is split into two components:
+
+* Budget support - which is money given directly to the government to spend through its own systems, following consultation with donors, and
+* Project aid - which is aid spent directly by the donors.
+
+You can also see the individual projects that make up this spending data, by viewing the data on [OpenSpending.org](http://openspending.org/ugandabudget?_time=2003)
+
+# DISCLAIMER:
+
+The data used for this visualisation was collected as part of the Overseas Development Institute's Donor Division of Labour Exercise conducted in 2006-2007*. All mistakes, errors and omissions in this visualization are the responsibility of Publish What You Fund alone. The data and research reported here do not reflect the official view of the Ministry of Finance, Planning and Economic Development. This data is not used by the Government of Uganda to allocate resources or for any other official purpose and no Ministry staff were involved in the development of this visualization.
+
+*For more details see the ODI report Uganda Development Partner Division of Labour Exercise: 
